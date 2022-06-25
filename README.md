@@ -19,3 +19,9 @@ No need to use "git add", u can use "git commit -a -m" agreeGe
 THAT'S what she meant, when u create/change something ON GITHUB, there's no "git add" or "add", u just click "commit new file" or "commit changes"
 
 Bro you're dum xD
+
+## Trying branches
+
+"Yer a variant, harry"
+
+-   Hagrid The Time Wizard
