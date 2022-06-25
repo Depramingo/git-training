@@ -26,6 +26,11 @@ Bro you're dum xD
 
 -   Hagrid The Time Wizard
 
+## Now trying conflicts
+
+Captain America: Civil War
+OH SHOOT.. git commit -a -m (which can just be -am) only adds MODIFIED files, NOT newly created files
+
 ## Again trying conflicts
 
 How I met Your Mother > Friends
