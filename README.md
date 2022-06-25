@@ -1,7 +1,7 @@
-# qr-code
+# git-training
 
-QR Code test - Frontend Mentor.
+training on using git
 
-## Learning git first
+## Man this is complicated
 
-apparently I need to commit and.. stuff.
+BUT.. we're getting there
