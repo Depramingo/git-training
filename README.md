@@ -22,6 +22,6 @@ Bro you're dum xD
 
 ## Trying branches
 
-"Yer a variant, harry"
+"Yer a variant, Harry"
 
 -   Hagrid The Time Wizard
