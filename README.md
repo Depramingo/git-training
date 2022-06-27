@@ -35,3 +35,7 @@ OH SHOOT.. git commit -a -m (which can just be -am) only adds MODIFIED files, NO
 ## Again trying conflicts
 
 How I met Your Mother > Friends
+
+## Added all my notes
+
+I'm leaving all the weird things I did during the learning phase, and I added all the notes I took to index.html
