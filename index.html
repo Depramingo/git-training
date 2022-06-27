@@ -9,14 +9,69 @@
 </head>
 
 <body>
-    <h1>cd = change directory: </h1>
-    <p>
-        cd "a code"
-    </p>
-    <p>
-        ls = list files and directories <br>
-        ls -a = shows HIDDEN files and directories
-    </p>
+    <h1>Git & Github Notes</h1>
+    <ul>
+        <li>cd = change directory:
+            <ul>
+                <li>cd "a code"
+            </ul>
+        <li>ls = list files and directories
+        <li>ls -a = shows HIDDEN files and directories
+        <li>git init = initializes a new Git repository
+        <li>git status = used to change a file's “Access“, “Modify” and “Change” timestamps to the current time and
+            date, but if the file doesn't exist, the touch command creates it
+        <li>git add = adds a file to the staging area, ready to be committed:
+            <ul>
+                <li>git add index.html style.css
+                <li>git add . = adds all changes to staging area
+            </ul>
+        <li>git rm --cached = removes file from staging area, aka unstage
+        <li>git rm = removes
+        <li>cat = allows us to create single or multiple files, view content of a file, concatenate files and redirect
+            output in terminal or files
+        <li>git log = commit history
+        <li>git clone = clones a remote repo to local machine (from Github to PC), That's called PULLING
+        <li>git commit -m "describe what u did"
+        <li>If u add another m- (message) it'll be a description
+        <li>git push = pushes the changes to live repo
+        <li>go to github > settings > SSH and GPG keys > New ssh key > title and key > add
+        <li>This is helpful:
+            <ul>
+                <li>https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+            </ul>
+        <li>Remember:
+            <ol>
+                <li>Create a github repo
+                <li>Clone it locally
+                <li>Move your files there
+                <li>Push it on the remote repo
+            </ol>
+        <li>git push -u origin main
+            <ul>
+                <li>Do tihs the first time, -u will make it so that u don't have to type "origin main" every time u push
+                    from now on
+            </ul>
+        <li>THE WAY TO PUSH A LOCALLY CREATED REPO TO GITHUB, U DUMBASS:
+            <ol>
+                <li>Create a folder and on PC
+                <li>git init
+                <li>add and commit a README.md or something
+                <li>create new repo on github
+                <li>copy it's ssh link
+                <li>git remote add origin the-link@blah-blah.com:blah-blahing.git
+                <li>git remote -v shows remote repos connected to this local repo
+            </ol>
+            <ul>
+                <li>That's it, u can interact with it normally now, you pepega xD
+            </ul>
+        <li>apparently u don't have to use "git add" if u wanna commit ALL CHANGES, when u "git commit -a -m" it adds
+            for u and commits EVERYTHING.
+        <li>OH SH*T.. git commit -a -m (which can just be -am) only adds MODIFIED files, NOT newly created files
+        <li>if you change sometihng ON GITHUB, just "git pull"
+        <li>git branch = shows current branch
+        <li>git checkout = moves between branches
+        <li>git checkout -b branchName (like feature or sth) = creates new branch and switches to it
+    </ul>
 
 </body>
 
